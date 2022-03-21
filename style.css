@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#tela-cadastro{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 20px rgb(195, 195, 195);
+    border-radius: 15px;
+}
+
+.fundo{
+    background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29sb3J8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login{
+    padding-top: 15px;
+    text-align: center;
+}
+
+p{
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(25, 43, 100);
+}
+
+a:hover{
+    color: rgb(29, 109, 92);
+    cursor: pointer;
+}
